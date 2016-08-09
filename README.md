@@ -15,4 +15,6 @@ if you want use ssh and ssh-key : git clone git@github.com:/zxf1111/github-linux
 设置完毕后，您可以用下面的命令来修正本次提交所使用的用户身份：
 
     git commit --amend --reset-author
+#check ssh key
 
+ssh -vvv git@github.com
